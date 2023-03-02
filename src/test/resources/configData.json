@@ -1,0 +1,20 @@
+{
+  "baseURL": "https://demoqa.com/books",
+  "baseURLForAPIRequests": "https://demoqa.com/",
+  "pathToGetListOfBooks": "BookStore/v1/Books",
+  "pathToCreateUserCredentials":"Account/v1/User",
+  "contentType": "application/json",
+  "userName": "testUser789",
+  "password": "o8PjHvyc7c1!nzFg",
+
+
+  "implicitTimeout": 15,
+  "explicitTimeout": 30,
+  "awaitTimeout": 10,
+
+  "browser": "chrome",
+  "wayOfLaunchingChrome": "--incognito",
+  "languageOfBrowser": "−−lang=en",
+
+  "logFilePath": "logFile.log"
+}
